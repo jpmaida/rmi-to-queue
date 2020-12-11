@@ -3,11 +3,13 @@ package com.redhat.reproducer;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
+import java.util.logging.Logger;
 
-public class RMIServer implements Hello{
-    public RMIServer() {}
-
+public class RMIServer implements HelloMessage {
+    private final static Logger LOGGER = Logger.getLogger(RMIServer.class.getName());
     private int counter = 1;
+
+    public RMIServer() {}
 
     public String sayHello() {
         String time = "";
@@ -25,20 +27,15 @@ public class RMIServer implements Hello{
     }
 
     public static void main(String args[]) {
-
         try {
             RMIServer obj = new RMIServer();
-            Hello stub = (Hello) UnicastRemoteObject.exportObject(obj, 0);
-
-            // Bind the remote object's stub in the registry
-            //Registry registry = LocateRegistry.getRegistry();
+            HelloMessage stub = (HelloMessage) UnicastRemoteObject.exportObject(obj, 0);
             Registry registry = LocateRegistry.createRegistry(5000);
-            registry.bind("Hello", stub);
-
+            registry.bind("HelloMessage", stub);
             System.out.println("Server ready");
         } catch (Exception e) {
             System.err.println("Server exception: " + e.toString());
-            e.printStackTrace();
+            LOGGER.severe(e.getMessage());
         }
     }
 }
