@@ -29,36 +29,12 @@
     </dependencyManagement>
 
     <dependencies>
-        <dependency>
-            <groupId>javax.json</groupId>
-            <artifactId>javax.json-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.spec.javax.jms</groupId>
-            <artifactId>jboss-jms-api_2.0_spec</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.logging</groupId>
-            <artifactId>commons-logging-jboss-logging</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.wildfly</groupId>
-            <artifactId>wildfly-naming-client</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>artemis-jms-client</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>provided</scope>
-        </dependency>
+        <dependency><groupId>javax.json</groupId><artifactId>javax.json-api</artifactId></dependency>
+        <dependency><groupId>io.netty</groupId><artifactId>netty-all</artifactId></dependency>
+        <dependency><groupId>org.apache.activemq</groupId><artifactId>artemis-jms-client</artifactId></dependency>
+        <dependency><groupId>org.jboss.spec.javax.jms</groupId><artifactId>jboss-jms-api_2.0_spec</artifactId></dependency>
+        <dependency><groupId>org.jboss.logging</groupId><artifactId>commons-logging-jboss-logging</artifactId></dependency>
+        <dependency><groupId>org.wildfly</groupId><artifactId>wildfly-naming-client</artifactId></dependency>
     </dependencies>
 
     <build>
@@ -81,7 +57,7 @@
                         <archive>
                             <manifest>
                                 <addClasspath>true</addClasspath>
-                                <mainClass>com.redhat.reproducer.MessageToQueue</mainClass>
+                                <mainClass>com.redhat.reproducer.RMIServer</mainClass>
                                 <classpathPrefix>/tmp/lib/</classpathPrefix>
                             </manifest>
                         </archive>
