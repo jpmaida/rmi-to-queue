@@ -11,4 +11,4 @@ standalone/tmp
 standalone/log
 standalone/deployments
 standalone/lib
-standalone/configurion/standalone_xml_history
+standalone/configuration/standalone_xml_history
