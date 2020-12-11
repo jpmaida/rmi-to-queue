@@ -1,0 +1,622 @@
+2020-12-08 10:21:20,147 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/deployments
+2020-12-08 10:21:20,220 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2020-12-08 10:21:20,298 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.2.4.Final-redhat-00001 (Apache CXF 3.2.5.redhat-00001) 
+2020-12-08 10:21:20,364 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2020-12-08 10:21:20,366 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2020-12-08 10:21:20,366 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2020-12-08 10:21:20,367 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.2.0.GA (WildFly Core 6.0.11.Final-redhat-00001) started in 3027ms - Started 307 of 528 services (321 services are lazy, passive or on-demand)
+2020-12-08 10:23:22,894 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0236: Suspending server with no timeout.
+2020-12-08 10:23:22,897 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: EJB subsystem suspension complete
+2020-12-08 10:23:22,898 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2020-12-08 10:23:22,912 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2020-12-08 10:23:22,912 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2020-12-08 10:23:22,912 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2020-12-08 10:23:22,915 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2020-12-08 10:23:22,916 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2020-12-08 10:23:22,917 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2020-12-08 10:23:22,922 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2020-12-08 10:23:22,922 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2020-12-08 10:23:22,924 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 2.0.15.Final-redhat-00001 stopping
+2020-12-08 10:23:22,932 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: JBoss EAP 7.2.0.GA (WildFly Core 6.0.11.Final-redhat-00001) stopped in 30ms
+2020-12-08 10:26:33,353 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final-redhat-00001
+2020-12-08 10:26:33,646 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2020-12-08 10:26:49,119 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final-redhat-00001
+2020-12-08 10:26:49,411 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final-redhat-00001
+2020-12-08 10:26:49,421 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final-redhat-1
+2020-12-08 10:26:49,557 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 7.2.0.GA (WildFly Core 6.0.11.Final-redhat-00001) starting
+2020-12-08 10:26:49,558 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/rs/j6pfzxvj1js2c7n2ljvw9dcr0000gn/T/
+	java.library.path = /Users/jogoncal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.7+10
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = AdoptOpenJDK
+	java.vendor.url = https://adoptopenjdk.net/
+	java.vendor.url.bug = https://github.com/AdoptOpenJDK/openjdk-support/issues
+	java.vendor.version = AdoptOpenJDK
+	java.version = 11.0.7
+	java.version.date = 2020-04-14
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = AdoptOpenJDK
+	java.vm.version = 11.0.7+10
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2
+	jboss.host.name = jogoncal-mac
+	jboss.modules.dir = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = jogoncal-mac
+	jboss.qualified.host.name = jogoncal-mac
+	jboss.server.base.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone
+	jboss.server.config.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/configuration
+	jboss.server.data.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data
+	jboss.server.deploy.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/content
+	jboss.server.log.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/log
+	jboss.server.name = jogoncal-mac
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/configuration/logging.properties
+	module.path = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/modules
+	org.jboss.boot.log.file = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.15.6
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/jboss-modules.jar -mp /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/modules org.jboss.as.standalone -Djboss.home.dir=/Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2 -Djboss.server.base.dir=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone -Djboss.server.base.dir=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone -c standalone-full-ha.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = BR
+	user.dir = /Users/jogoncal
+	user.home = /Users/jogoncal
+	user.language = en
+	user.name = jogoncal
+	user.timezone = America/Sao_Paulo
+2020-12-08 10:26:49,560 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xlog:gc*:file=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/log/gc.log:time,uptimemillis:filecount=5,filesize=3M -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Dorg.jboss.boot.log.file=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/log/server.log -Dlogging.configuration=file:/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/configuration/logging.properties 
+2020-12-08 10:26:50,175 INFO  [org.wildfly.security] (ServerService Thread Pool -- 31) ELY00001: WildFly Elytron version 1.6.1.Final-redhat-00001
+2020-12-08 10:26:50,744 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-12-08 10:26:50,762 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-12-08 10:26:50,836 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2020-12-08 10:26:50,851 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final-redhat-00001
+2020-12-08 10:26:50,859 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final-redhat-00001
+2020-12-08 10:26:50,879 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 54) WFLYIIOP0001: Activating IIOP Subsystem
+2020-12-08 10:26:50,879 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 60) WFLYCLJG0001: Activating JGroups subsystem. JGroups version 4.0.15
+2020-12-08 10:26:50,888 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 67) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2020-12-08 10:26:50,878 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 24 core threads with 192 task threads based on your 12 available processors
+2020-12-08 10:26:50,889 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2020-12-08 10:26:50,890 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 69) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2020-12-08 10:26:50,898 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 71) WFLYNAM0001: Activating Naming Subsystem
+2020-12-08 10:26:50,902 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 77) WFLYSEC0002: Activating Security Subsystem
+2020-12-08 10:26:50,903 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 3.6.1.SP2-redhat-00001
+2020-12-08 10:26:50,900 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 80) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2020-12-08 10:26:50,902 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2020-12-08 10:26:50,899 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2020-12-08 10:26:50,922 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 82) WFLYWS0002: Activating WebServices Extension
+2020-12-08 10:26:50,923 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 68) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2020-12-08 10:26:50,927 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.11.Final-redhat-00001)
+2020-12-08 10:26:50,929 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-3
+2020-12-08 10:26:50,930 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 47) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2020-12-08 10:26:50,943 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.0.15.Final-redhat-00001 starting
+2020-12-08 10:26:50,945 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2020-12-08 10:26:50,941 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2020-12-08 10:26:50,947 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2020-12-08 10:26:50,966 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.8.Final-redhat-1
+2020-12-08 10:26:50,975 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2020-12-08 10:26:51,025 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2020-12-08 10:26:51,025 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 192 (per class), which is derived from thread worker pool sizing.
+2020-12-08 10:26:51,037 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0014: Creating file handler for path '/Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2020-12-08 10:26:51,046 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2020-12-08 10:26:51,048 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2020-12-08 10:26:51,096 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow AJP listener ajp listening on 127.0.0.1:8009
+2020-12-08 10:26:51,096 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2020-12-08 10:26:51,101 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 84) MODCLUSTER000001: Initializing mod_cluster version 1.4.0.Final-redhat-1
+2020-12-08 10:26:51,111 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 84) MODCLUSTER000032: Listening to proxy advertisements on /224.0.1.105:23364
+2020-12-08 10:26:51,152 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: EJB subsystem suspension complete
+2020-12-08 10:26:51,211 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2020-12-08 10:26:51,248 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-6) WFLYIIOP0009: CORBA ORB Service started
+2020-12-08 10:26:51,350 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none
+2020-12-08 10:26:51,362 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2020-12-08 10:26:51,367 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/deployments
+2020-12-08 10:26:51,425 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2020-12-08 10:26:51,493 WARN  [org.jgroups.protocols.UDP] (ServerService Thread Pool -- 84) JGRP000015: the receive buffer of socket ManagedMulticastSocketBinding was set to 20.00MB, but the OS only allocated 6.71MB. This might lead to performance problems. Please set your max receive buffer in the OS correctly (e.g. net.core.rmem_max on Linux)
+2020-12-08 10:26:51,493 WARN  [org.jgroups.protocols.UDP] (ServerService Thread Pool -- 84) JGRP000015: the receive buffer of socket ManagedMulticastSocketBinding was set to 25.00MB, but the OS only allocated 6.71MB. This might lead to performance problems. Please set your max receive buffer in the OS correctly (e.g. net.core.rmem_max on Linux)
+2020-12-08 10:26:51,498 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.2.4.Final-redhat-00001 (Apache CXF 3.2.5.redhat-00001) 
+2020-12-08 10:26:54,592 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2020-12-08 10:26:54,794 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=true,journalDirectory=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/activemq/journal,bindingsDirectory=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/activemq/bindings,largeMessagesDirectory=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/activemq/largemessages,pagingDirectory=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/activemq/paging)
+2020-12-08 10:26:54,826 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221013: Using NIO Journal
+2020-12-08 10:26:54,992 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 683,671,552
+2020-12-08 10:26:55,004 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000078: Starting JGroups channel ejb
+2020-12-08 10:26:55,036 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2020-12-08 10:26:55,005 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-4) ISPN000078: Starting JGroups channel ejb
+2020-12-08 10:26:55,004 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-2) ISPN000078: Starting JGroups channel ejb
+2020-12-08 10:26:55,004 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000078: Starting JGroups channel ejb
+2020-12-08 10:26:55,040 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2020-12-08 10:26:55,046 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-1) ISPN000094: Received new cluster view for channel ejb: [jogoncal-mac|0] (1) [jogoncal-mac]
+2020-12-08 10:26:55,046 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-2) ISPN000094: Received new cluster view for channel ejb: [jogoncal-mac|0] (1) [jogoncal-mac]
+2020-12-08 10:26:55,046 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-4) ISPN000094: Received new cluster view for channel ejb: [jogoncal-mac|0] (1) [jogoncal-mac]
+2020-12-08 10:26:55,046 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-6) ISPN000094: Received new cluster view for channel ejb: [jogoncal-mac|0] (1) [jogoncal-mac]
+2020-12-08 10:26:55,052 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-2) ISPN000079: Channel ejb local address is jogoncal-mac, physical addresses are [127.0.0.1:55200]
+2020-12-08 10:26:55,052 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000079: Channel ejb local address is jogoncal-mac, physical addresses are [127.0.0.1:55200]
+2020-12-08 10:26:55,052 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-4) ISPN000079: Channel ejb local address is jogoncal-mac, physical addresses are [127.0.0.1:55200]
+2020-12-08 10:26:55,052 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000079: Channel ejb local address is jogoncal-mac, physical addresses are [127.0.0.1:55200]
+2020-12-08 10:26:55,057 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Estrella Galicia' 9.3.3.Final-redhat-00001
+2020-12-08 10:26:55,081 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221034: Waiting indefinitely to obtain live lock
+2020-12-08 10:26:55,081 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221035: Live Server Obtained live lock
+2020-12-08 10:26:55,281 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2020-12-08 10:26:55,281 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2020-12-08 10:26:55,281 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2020-12-08 10:26:55,281 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2020-12-08 10:26:55,461 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221007: Server is now live
+2020-12-08 10:26:55,461 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.6.3.redhat-00014 [default, nodeID=09fc8a25-3959-11eb-ac4b-f0189890d6e4] 
+2020-12-08 10:26:55,467 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 84) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2020-12-08 10:26:55,478 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 87) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2020-12-08 10:26:55,486 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2020-12-08 10:26:55,535 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) WFLYJCA0007: Registered connection factory java:/JmsXA
+2020-12-08 10:26:55,541 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2020-12-08 10:26:55,595 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-1) AMQ151007: Resource adaptor started
+2020-12-08 10:26:55,596 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2020-12-08 10:26:55,614 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2020-12-08 10:26:55,614 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2020-12-08 10:26:55,668 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2020-12-08 10:26:55,670 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2020-12-08 10:26:55,670 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2020-12-08 10:26:55,670 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.2.0.GA (WildFly Core 6.0.11.Final-redhat-00001) started in 6787ms - Started 417 of 644 services (410 services are lazy, passive or on-demand)
+2020-12-08 10:33:25,447 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0236: Suspending server with no timeout.
+2020-12-08 10:33:25,450 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: EJB subsystem suspension complete
+2020-12-08 10:33:25,451 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2020-12-08 10:33:25,461 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 92) MODCLUSTER000002: Initiating mod_cluster shutdown
+2020-12-08 10:33:25,463 WARN  [org.jboss.modcluster] (ServerService Thread Pool -- 92) MODCLUSTER000033: Failed to interrupt socket reception.: java.io.IOException: Can't assign requested address
+	at java.base/java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at org.jboss.mod_cluster.core@1.4.0.Final-redhat-1//org.jboss.modcluster.advertise.impl.AdvertiseListenerImpl.interruptDatagramReader(AdvertiseListenerImpl.java:197)
+	at org.jboss.mod_cluster.core@1.4.0.Final-redhat-1//org.jboss.modcluster.advertise.impl.AdvertiseListenerImpl.stop(AdvertiseListenerImpl.java:212)
+	at org.jboss.mod_cluster.core@1.4.0.Final-redhat-1//org.jboss.modcluster.advertise.impl.AdvertiseListenerImpl.destroy(AdvertiseListenerImpl.java:224)
+	at org.jboss.mod_cluster.core@1.4.0.Final-redhat-1//org.jboss.modcluster.ModClusterService.shutdown(ModClusterService.java:198)
+	at org.wildfly.extension.mod_cluster@7.2.0.GA-redhat-00005//org.wildfly.extension.mod_cluster.ContainerEventHandlerServiceConfigurator.accept(ContainerEventHandlerServiceConfigurator.java:83)
+	at org.wildfly.extension.mod_cluster@7.2.0.GA-redhat-00005//org.wildfly.extension.mod_cluster.ContainerEventHandlerServiceConfigurator.accept(ContainerEventHandlerServiceConfigurator.java:50)
+	at org.wildfly.clustering.service@7.2.0.GA-redhat-00005//org.wildfly.clustering.service.FunctionalService.stop(FunctionalService.java:77)
+	at org.wildfly.clustering.service@7.2.0.GA-redhat-00005//org.wildfly.clustering.service.AsyncServiceConfigurator$AsyncService.lambda$stop$1(AsyncServiceConfigurator.java:142)
+	at org.jboss.threads@2.3.2.Final-redhat-1//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.3.2.Final-redhat-1//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads@2.3.2.Final-redhat-1//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads@2.3.2.Final-redhat-1//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1349)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.3.2.Final-redhat-1//org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2020-12-08 10:33:25,466 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 91) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2020-12-08 10:33:25,466 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2020-12-08 10:33:25,466 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2020-12-08 10:33:25,467 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2020-12-08 10:33:25,467 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2020-12-08 10:33:25,468 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2020-12-08 10:33:25,468 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow AJP listener ajp suspending
+2020-12-08 10:33:25,469 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-2) ISPN000080: Disconnecting JGroups channel ejb
+2020-12-08 10:33:25,469 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000080: Disconnecting JGroups channel ejb
+2020-12-08 10:33:25,469 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-7) ISPN000080: Disconnecting JGroups channel ejb
+2020-12-08 10:33:25,469 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000080: Disconnecting JGroups channel ejb
+2020-12-08 10:33:25,470 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2020-12-08 10:33:25,470 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow AJP listener ajp stopped, was bound to 127.0.0.1:8009
+2020-12-08 10:33:25,470 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2020-12-08 10:33:25,476 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2020-12-08 10:33:25,505 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 92) AMQ151003: resource adaptor stopped
+2020-12-08 10:33:25,554 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 92) AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.6.3.redhat-00014 [09fc8a25-3959-11eb-ac4b-f0189890d6e4] stopped, uptime 6 minutes
+2020-12-08 10:33:25,555 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+2020-12-08 10:33:25,556 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2020-12-08 10:33:25,557 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 2.0.15.Final-redhat-00001 stopping
+2020-12-08 10:33:25,569 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: JBoss EAP 7.2.0.GA (WildFly Core 6.0.11.Final-redhat-00001) stopped in 114ms
+2020-12-08 10:33:28,195 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final-redhat-00001
+2020-12-08 10:33:28,490 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final-redhat-00001
+2020-12-08 10:33:28,498 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final-redhat-1
+2020-12-08 10:33:28,623 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 7.2.0.GA (WildFly Core 6.0.11.Final-redhat-00001) starting
+2020-12-08 10:33:28,624 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/rs/j6pfzxvj1js2c7n2ljvw9dcr0000gn/T/
+	java.library.path = /Users/jogoncal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.7+10
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = AdoptOpenJDK
+	java.vendor.url = https://adoptopenjdk.net/
+	java.vendor.url.bug = https://github.com/AdoptOpenJDK/openjdk-support/issues
+	java.vendor.version = AdoptOpenJDK
+	java.version = 11.0.7
+	java.version.date = 2020-04-14
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = AdoptOpenJDK
+	java.vm.version = 11.0.7+10
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2
+	jboss.host.name = jogoncal-mac
+	jboss.modules.dir = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = jogoncal-mac
+	jboss.qualified.host.name = jogoncal-mac
+	jboss.server.base.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone
+	jboss.server.config.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/configuration
+	jboss.server.data.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data
+	jboss.server.deploy.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/content
+	jboss.server.log.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/log
+	jboss.server.name = jogoncal-mac
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/configuration/logging.properties
+	module.path = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/modules
+	org.jboss.boot.log.file = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.15.6
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/jboss-modules.jar -mp /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/modules org.jboss.as.standalone -Djboss.home.dir=/Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2 -Djboss.server.base.dir=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone -Djboss.server.base.dir=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone -c standalone-full-ha.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = BR
+	user.dir = /Users/jogoncal
+	user.home = /Users/jogoncal
+	user.language = en
+	user.name = jogoncal
+	user.timezone = America/Sao_Paulo
+2020-12-08 10:33:28,626 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xlog:gc*:file=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/log/gc.log:time,uptimemillis:filecount=5,filesize=3M -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Dorg.jboss.boot.log.file=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/log/server.log -Dlogging.configuration=file:/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/configuration/logging.properties 
+2020-12-08 10:33:29,285 INFO  [org.wildfly.security] (ServerService Thread Pool -- 31) ELY00001: WildFly Elytron version 1.6.1.Final-redhat-00001
+2020-12-08 10:33:29,923 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-12-08 10:33:29,952 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-12-08 10:33:30,070 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2020-12-08 10:33:30,085 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final-redhat-00001
+2020-12-08 10:33:30,093 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final-redhat-00001
+2020-12-08 10:33:30,118 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2020-12-08 10:33:30,121 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 54) WFLYIIOP0001: Activating IIOP Subsystem
+2020-12-08 10:33:30,131 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 67) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2020-12-08 10:33:30,116 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 24 core threads with 192 task threads based on your 12 available processors
+2020-12-08 10:33:30,134 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 69) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2020-12-08 10:33:30,135 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 60) WFLYCLJG0001: Activating JGroups subsystem. JGroups version 4.0.15
+2020-12-08 10:33:30,140 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 68) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2020-12-08 10:33:30,145 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 71) WFLYNAM0001: Activating Naming Subsystem
+2020-12-08 10:33:30,156 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 82) WFLYWS0002: Activating WebServices Extension
+2020-12-08 10:33:30,157 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final-redhat-1
+2020-12-08 10:33:30,159 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 77) WFLYSEC0002: Activating Security Subsystem
+2020-12-08 10:33:30,148 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 3.6.1.SP2-redhat-00001
+2020-12-08 10:33:30,160 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 47) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2020-12-08 10:33:30,144 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2020-12-08 10:33:30,145 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 80) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2020-12-08 10:33:30,144 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2020-12-08 10:33:30,148 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.11.Final-redhat-00001)
+2020-12-08 10:33:30,184 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2020-12-08 10:33:30,186 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-3
+2020-12-08 10:33:30,193 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2020-12-08 10:33:30,196 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2020-12-08 10:33:30,198 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.0.15.Final-redhat-00001 starting
+2020-12-08 10:33:30,211 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2020-12-08 10:33:30,266 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 192 (per class), which is derived from thread worker pool sizing.
+2020-12-08 10:33:30,266 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2020-12-08 10:33:30,291 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0014: Creating file handler for path '/Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2020-12-08 10:33:30,304 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2020-12-08 10:33:30,307 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2020-12-08 10:33:30,355 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow AJP listener ajp listening on 127.0.0.1:8009
+2020-12-08 10:33:30,358 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2020-12-08 10:33:30,362 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 84) MODCLUSTER000001: Initializing mod_cluster version 1.4.0.Final-redhat-1
+2020-12-08 10:33:30,370 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 84) MODCLUSTER000032: Listening to proxy advertisements on /224.0.1.105:23364
+2020-12-08 10:33:30,401 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: EJB subsystem suspension complete
+2020-12-08 10:33:30,453 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2020-12-08 10:33:30,493 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-5) WFLYIIOP0009: CORBA ORB Service started
+2020-12-08 10:33:30,597 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none
+2020-12-08 10:33:30,609 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2020-12-08 10:33:30,611 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/deployments
+2020-12-08 10:33:30,732 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2020-12-08 10:33:30,788 WARN  [org.jgroups.protocols.UDP] (ServerService Thread Pool -- 84) JGRP000015: the receive buffer of socket ManagedMulticastSocketBinding was set to 20.00MB, but the OS only allocated 6.71MB. This might lead to performance problems. Please set your max receive buffer in the OS correctly (e.g. net.core.rmem_max on Linux)
+2020-12-08 10:33:30,789 WARN  [org.jgroups.protocols.UDP] (ServerService Thread Pool -- 84) JGRP000015: the receive buffer of socket ManagedMulticastSocketBinding was set to 25.00MB, but the OS only allocated 6.71MB. This might lead to performance problems. Please set your max receive buffer in the OS correctly (e.g. net.core.rmem_max on Linux)
+2020-12-08 10:33:30,808 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.2.4.Final-redhat-00001 (Apache CXF 3.2.5.redhat-00001) 
+2020-12-08 10:33:33,881 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2020-12-08 10:33:33,953 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=true,journalDirectory=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/activemq/journal,bindingsDirectory=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/activemq/bindings,largeMessagesDirectory=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/activemq/largemessages,pagingDirectory=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/activemq/paging)
+2020-12-08 10:33:33,987 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221013: Using NIO Journal
+2020-12-08 10:33:34,122 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 683,671,552
+2020-12-08 10:33:34,305 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2020-12-08 10:33:34,306 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2020-12-08 10:33:34,343 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221034: Waiting indefinitely to obtain live lock
+2020-12-08 10:33:34,343 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221035: Live Server Obtained live lock
+2020-12-08 10:33:34,394 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000078: Starting JGroups channel ejb
+2020-12-08 10:33:34,394 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000078: Starting JGroups channel ejb
+2020-12-08 10:33:34,394 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-8) ISPN000078: Starting JGroups channel ejb
+2020-12-08 10:33:34,395 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000078: Starting JGroups channel ejb
+2020-12-08 10:33:34,401 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-6) ISPN000094: Received new cluster view for channel ejb: [jogoncal-mac|0] (1) [jogoncal-mac]
+2020-12-08 10:33:34,401 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-5) ISPN000094: Received new cluster view for channel ejb: [jogoncal-mac|0] (1) [jogoncal-mac]
+2020-12-08 10:33:34,401 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-8) ISPN000094: Received new cluster view for channel ejb: [jogoncal-mac|0] (1) [jogoncal-mac]
+2020-12-08 10:33:34,401 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-1) ISPN000094: Received new cluster view for channel ejb: [jogoncal-mac|0] (1) [jogoncal-mac]
+2020-12-08 10:33:34,407 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000079: Channel ejb local address is jogoncal-mac, physical addresses are [127.0.0.1:55200]
+2020-12-08 10:33:34,407 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000079: Channel ejb local address is jogoncal-mac, physical addresses are [127.0.0.1:55200]
+2020-12-08 10:33:34,407 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-8) ISPN000079: Channel ejb local address is jogoncal-mac, physical addresses are [127.0.0.1:55200]
+2020-12-08 10:33:34,407 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000079: Channel ejb local address is jogoncal-mac, physical addresses are [127.0.0.1:55200]
+2020-12-08 10:33:34,412 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Estrella Galicia' 9.3.3.Final-redhat-00001
+2020-12-08 10:33:34,725 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2020-12-08 10:33:34,725 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2020-12-08 10:33:34,725 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2020-12-08 10:33:34,725 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2020-12-08 10:33:34,878 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221007: Server is now live
+2020-12-08 10:33:34,878 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.6.3.redhat-00014 [default, nodeID=09fc8a25-3959-11eb-ac4b-f0189890d6e4] 
+2020-12-08 10:33:34,885 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 84) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2020-12-08 10:33:34,905 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2020-12-08 10:33:34,918 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 87) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2020-12-08 10:33:34,951 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0007: Registered connection factory java:/JmsXA
+2020-12-08 10:33:34,952 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2020-12-08 10:33:34,998 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-7) AMQ151007: Resource adaptor started
+2020-12-08 10:33:34,998 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-7) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2020-12-08 10:33:35,000 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2020-12-08 10:33:35,001 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2020-12-08 10:33:35,061 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2020-12-08 10:33:35,063 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2020-12-08 10:33:35,064 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2020-12-08 10:33:35,064 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.2.0.GA (WildFly Core 6.0.11.Final-redhat-00001) started in 7103ms - Started 420 of 647 services (413 services are lazy, passive or on-demand)
+2020-12-08 10:36:40,406 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0236: Suspending server with no timeout.
+2020-12-08 10:36:40,409 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: EJB subsystem suspension complete
+2020-12-08 10:36:40,410 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2020-12-08 10:36:40,425 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 87) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:/ConnectionFactory
+2020-12-08 10:36:40,426 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 92) MODCLUSTER000002: Initiating mod_cluster shutdown
+2020-12-08 10:36:40,426 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2020-12-08 10:36:40,426 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2020-12-08 10:36:40,428 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2020-12-08 10:36:40,428 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow AJP listener ajp suspending
+2020-12-08 10:36:40,428 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2020-12-08 10:36:40,428 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2020-12-08 10:36:40,427 WARN  [org.jboss.modcluster] (ServerService Thread Pool -- 92) MODCLUSTER000033: Failed to interrupt socket reception.: java.io.IOException: Can't assign requested address
+	at java.base/java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at org.jboss.mod_cluster.core@1.4.0.Final-redhat-1//org.jboss.modcluster.advertise.impl.AdvertiseListenerImpl.interruptDatagramReader(AdvertiseListenerImpl.java:197)
+	at org.jboss.mod_cluster.core@1.4.0.Final-redhat-1//org.jboss.modcluster.advertise.impl.AdvertiseListenerImpl.stop(AdvertiseListenerImpl.java:212)
+	at org.jboss.mod_cluster.core@1.4.0.Final-redhat-1//org.jboss.modcluster.advertise.impl.AdvertiseListenerImpl.destroy(AdvertiseListenerImpl.java:224)
+	at org.jboss.mod_cluster.core@1.4.0.Final-redhat-1//org.jboss.modcluster.ModClusterService.shutdown(ModClusterService.java:198)
+	at org.wildfly.extension.mod_cluster@7.2.0.GA-redhat-00005//org.wildfly.extension.mod_cluster.ContainerEventHandlerServiceConfigurator.accept(ContainerEventHandlerServiceConfigurator.java:83)
+	at org.wildfly.extension.mod_cluster@7.2.0.GA-redhat-00005//org.wildfly.extension.mod_cluster.ContainerEventHandlerServiceConfigurator.accept(ContainerEventHandlerServiceConfigurator.java:50)
+	at org.wildfly.clustering.service@7.2.0.GA-redhat-00005//org.wildfly.clustering.service.FunctionalService.stop(FunctionalService.java:77)
+	at org.wildfly.clustering.service@7.2.0.GA-redhat-00005//org.wildfly.clustering.service.AsyncServiceConfigurator$AsyncService.lambda$stop$1(AsyncServiceConfigurator.java:142)
+	at org.jboss.threads@2.3.2.Final-redhat-1//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.3.2.Final-redhat-1//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads@2.3.2.Final-redhat-1//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads@2.3.2.Final-redhat-1//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.3.2.Final-redhat-1//org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2020-12-08 10:36:40,430 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000080: Disconnecting JGroups channel ejb
+2020-12-08 10:36:40,430 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-3) ISPN000080: Disconnecting JGroups channel ejb
+2020-12-08 10:36:40,430 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-4) ISPN000080: Disconnecting JGroups channel ejb
+2020-12-08 10:36:40,430 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-2) ISPN000080: Disconnecting JGroups channel ejb
+2020-12-08 10:36:40,430 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2020-12-08 10:36:40,430 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2020-12-08 10:36:40,430 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow AJP listener ajp stopped, was bound to 127.0.0.1:8009
+2020-12-08 10:36:40,434 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2020-12-08 10:36:40,460 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 91) AMQ151003: resource adaptor stopped
+2020-12-08 10:36:40,508 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 91) AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.6.3.redhat-00014 [09fc8a25-3959-11eb-ac4b-f0189890d6e4] stopped, uptime 3 minutes
+2020-12-08 10:36:40,510 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTP listener default suspending
+2020-12-08 10:36:40,511 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2020-12-08 10:36:40,512 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 2.0.15.Final-redhat-00001 stopping
+2020-12-08 10:36:40,525 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: JBoss EAP 7.2.0.GA (WildFly Core 6.0.11.Final-redhat-00001) stopped in 112ms
+2020-12-08 10:38:46,852 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final-redhat-00001
+2020-12-08 10:38:47,164 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final-redhat-00001
+2020-12-08 10:38:47,172 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final-redhat-1
+2020-12-08 10:38:47,294 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 7.2.0.GA (WildFly Core 6.0.11.Final-redhat-00001) starting
+2020-12-08 10:38:47,295 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/rs/j6pfzxvj1js2c7n2ljvw9dcr0000gn/T/
+	java.library.path = /Users/jogoncal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.7+10
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = AdoptOpenJDK
+	java.vendor.url = https://adoptopenjdk.net/
+	java.vendor.url.bug = https://github.com/AdoptOpenJDK/openjdk-support/issues
+	java.vendor.version = AdoptOpenJDK
+	java.version = 11.0.7
+	java.version.date = 2020-04-14
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = AdoptOpenJDK
+	java.vm.version = 11.0.7+10
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2
+	jboss.host.name = jogoncal-mac
+	jboss.modules.dir = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = jogoncal-mac
+	jboss.qualified.host.name = jogoncal-mac
+	jboss.server.base.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone
+	jboss.server.config.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/configuration
+	jboss.server.data.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data
+	jboss.server.deploy.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/content
+	jboss.server.log.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/log
+	jboss.server.name = jogoncal-mac
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/configuration/logging.properties
+	module.path = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/modules
+	org.jboss.boot.log.file = /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.15.6
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/jboss-modules.jar -mp /Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/modules org.jboss.as.standalone -Djboss.home.dir=/Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2 -Djboss.server.base.dir=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone -Djboss.server.base.dir=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone -c standalone-full-ha.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = BR
+	user.dir = /Users/jogoncal
+	user.home = /Users/jogoncal
+	user.language = en
+	user.name = jogoncal
+	user.timezone = America/Sao_Paulo
+2020-12-08 10:38:47,298 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xlog:gc*:file=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/log/gc.log:time,uptimemillis:filecount=5,filesize=3M -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Dorg.jboss.boot.log.file=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/log/server.log -Dlogging.configuration=file:/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/configuration/logging.properties 
+2020-12-08 10:38:47,942 INFO  [org.wildfly.security] (ServerService Thread Pool -- 31) ELY00001: WildFly Elytron version 1.6.1.Final-redhat-00001
+2020-12-08 10:38:48,547 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-12-08 10:38:48,576 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-12-08 10:38:48,656 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2020-12-08 10:38:48,670 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final-redhat-00001
+2020-12-08 10:38:48,676 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final-redhat-00001
+2020-12-08 10:38:48,700 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 60) WFLYCLJG0001: Activating JGroups subsystem. JGroups version 4.0.15
+2020-12-08 10:38:48,701 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 54) WFLYIIOP0001: Activating IIOP Subsystem
+2020-12-08 10:38:48,702 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 67) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2020-12-08 10:38:48,710 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 71) WFLYNAM0001: Activating Naming Subsystem
+2020-12-08 10:38:48,716 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 77) WFLYSEC0002: Activating Security Subsystem
+2020-12-08 10:38:48,719 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 82) WFLYWS0002: Activating WebServices Extension
+2020-12-08 10:38:48,715 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.11.Final-redhat-00001)
+2020-12-08 10:38:48,720 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 3.6.1.SP2-redhat-00001
+2020-12-08 10:38:48,725 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 68) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2020-12-08 10:38:48,712 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 80) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2020-12-08 10:38:48,707 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2020-12-08 10:38:48,726 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 69) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2020-12-08 10:38:48,726 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2020-12-08 10:38:48,733 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-3
+2020-12-08 10:38:48,739 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 47) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2020-12-08 10:38:48,737 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 24 core threads with 192 task threads based on your 12 available processors
+2020-12-08 10:38:48,744 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2020-12-08 10:38:48,745 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2020-12-08 10:38:48,762 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final-redhat-1
+2020-12-08 10:38:48,768 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.0.15.Final-redhat-00001 starting
+2020-12-08 10:38:48,774 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2020-12-08 10:38:48,781 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2020-12-08 10:38:48,802 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2020-12-08 10:38:48,839 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2020-12-08 10:38:48,839 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 192 (per class), which is derived from thread worker pool sizing.
+2020-12-08 10:38:48,864 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0014: Creating file handler for path '/Users/jogoncal/Documents/Laboratorio/jboss-eap-7.2/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2020-12-08 10:38:48,874 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2020-12-08 10:38:48,876 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2020-12-08 10:38:48,929 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2020-12-08 10:38:48,929 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow AJP listener ajp listening on 127.0.0.1:8009
+2020-12-08 10:38:48,936 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 84) MODCLUSTER000001: Initializing mod_cluster version 1.4.0.Final-redhat-1
+2020-12-08 10:38:48,945 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 84) MODCLUSTER000032: Listening to proxy advertisements on /224.0.1.105:23364
+2020-12-08 10:38:48,998 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
+2020-12-08 10:38:49,094 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2020-12-08 10:38:49,117 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-4) WFLYIIOP0009: CORBA ORB Service started
+2020-12-08 10:38:49,181 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none
+2020-12-08 10:38:49,194 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2020-12-08 10:38:49,200 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/deployments
+2020-12-08 10:38:49,270 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2020-12-08 10:38:49,315 WARN  [org.jgroups.protocols.UDP] (ServerService Thread Pool -- 84) JGRP000015: the receive buffer of socket ManagedMulticastSocketBinding was set to 20.00MB, but the OS only allocated 6.71MB. This might lead to performance problems. Please set your max receive buffer in the OS correctly (e.g. net.core.rmem_max on Linux)
+2020-12-08 10:38:49,315 WARN  [org.jgroups.protocols.UDP] (ServerService Thread Pool -- 84) JGRP000015: the receive buffer of socket ManagedMulticastSocketBinding was set to 25.00MB, but the OS only allocated 6.71MB. This might lead to performance problems. Please set your max receive buffer in the OS correctly (e.g. net.core.rmem_max on Linux)
+2020-12-08 10:38:49,350 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.2.4.Final-redhat-00001 (Apache CXF 3.2.5.redhat-00001) 
+2020-12-08 10:38:52,395 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2020-12-08 10:38:52,466 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=true,journalDirectory=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/activemq/journal,bindingsDirectory=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/activemq/bindings,largeMessagesDirectory=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/activemq/largemessages,pagingDirectory=/Users/jogoncal/Documents/Laboratorio/rmi-to-queue/standalone/data/activemq/paging)
+2020-12-08 10:38:52,500 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221013: Using NIO Journal
+2020-12-08 10:38:52,575 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 683,671,552
+2020-12-08 10:38:52,692 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2020-12-08 10:38:52,694 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2020-12-08 10:38:52,772 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221034: Waiting indefinitely to obtain live lock
+2020-12-08 10:38:52,773 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221035: Live Server Obtained live lock
+2020-12-08 10:38:52,819 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000078: Starting JGroups channel ejb
+2020-12-08 10:38:52,819 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000078: Starting JGroups channel ejb
+2020-12-08 10:38:52,819 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000078: Starting JGroups channel ejb
+2020-12-08 10:38:52,819 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-4) ISPN000078: Starting JGroups channel ejb
+2020-12-08 10:38:52,824 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-5) ISPN000094: Received new cluster view for channel ejb: [jogoncal-mac|0] (1) [jogoncal-mac]
+2020-12-08 10:38:52,824 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-6) ISPN000094: Received new cluster view for channel ejb: [jogoncal-mac|0] (1) [jogoncal-mac]
+2020-12-08 10:38:52,824 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-1) ISPN000094: Received new cluster view for channel ejb: [jogoncal-mac|0] (1) [jogoncal-mac]
+2020-12-08 10:38:52,824 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-4) ISPN000094: Received new cluster view for channel ejb: [jogoncal-mac|0] (1) [jogoncal-mac]
+2020-12-08 10:38:52,831 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000079: Channel ejb local address is jogoncal-mac, physical addresses are [127.0.0.1:55200]
+2020-12-08 10:38:52,831 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-4) ISPN000079: Channel ejb local address is jogoncal-mac, physical addresses are [127.0.0.1:55200]
+2020-12-08 10:38:52,831 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000079: Channel ejb local address is jogoncal-mac, physical addresses are [127.0.0.1:55200]
+2020-12-08 10:38:52,831 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000079: Channel ejb local address is jogoncal-mac, physical addresses are [127.0.0.1:55200]
+2020-12-08 10:38:52,836 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Estrella Galicia' 9.3.3.Final-redhat-00001
+2020-12-08 10:38:53,023 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2020-12-08 10:38:53,023 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2020-12-08 10:38:53,023 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2020-12-08 10:38:53,023 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2020-12-08 10:38:53,143 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221007: Server is now live
+2020-12-08 10:38:53,143 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.6.3.redhat-00014 [default, nodeID=09fc8a25-3959-11eb-ac4b-f0189890d6e4] 
+2020-12-08 10:38:53,155 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 86) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2020-12-08 10:38:53,167 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2020-12-08 10:38:53,176 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 88) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2020-12-08 10:38:53,212 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0007: Registered connection factory java:/JmsXA
+2020-12-08 10:38:53,214 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2020-12-08 10:38:53,252 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-4) AMQ151007: Resource adaptor started
+2020-12-08 10:38:53,252 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-4) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2020-12-08 10:38:53,255 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2020-12-08 10:38:53,255 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2020-12-08 10:38:53,316 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2020-12-08 10:38:53,319 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2020-12-08 10:38:53,319 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2020-12-08 10:38:53,319 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.2.0.GA (WildFly Core 6.0.11.Final-redhat-00001) started in 6714ms - Started 420 of 647 services (413 services are lazy, passive or on-demand)
+2020-12-08 18:21:48,971 WARN  [org.apache.activemq.artemis.core.client] (Thread-2809 (ActiveMQ-server-org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$5@43101c48)) AMQ212037: Connection failure has been detected: AMQ119014: Did not receive data from /127.0.0.1:52784 within the 60,000ms connection TTL. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2020-12-08 19:21:48,715 WARN  [org.apache.activemq.artemis.core.client] (Thread-2842 (ActiveMQ-server-org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$5@43101c48)) AMQ212037: Connection failure has been detected: AMQ119014: Did not receive data from /127.0.0.1:58109 within the 60,000ms connection TTL. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2020-12-08 20:21:50,072 WARN  [org.apache.activemq.artemis.core.client] (Thread-2818 (ActiveMQ-server-org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$5@43101c48)) AMQ212037: Connection failure has been detected: AMQ119014: Did not receive data from /127.0.0.1:58151 within the 60,000ms connection TTL. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2020-12-08 21:07:32,465 WARN  [org.apache.activemq.artemis.core.client] (Thread-2774 (ActiveMQ-server-org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$5@43101c48)) AMQ212037: Connection failure has been detected: AMQ119014: Did not receive data from /127.0.0.1:58194 within the 60,000ms connection TTL. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
