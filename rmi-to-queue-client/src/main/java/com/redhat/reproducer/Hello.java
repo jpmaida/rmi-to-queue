@@ -1,3 +1,5 @@
+package com.redhat.reproducer;
+
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 

@@ -38,6 +38,19 @@
             <target>${maven.compiler.target}</target>
           </configuration>
         </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.2.0</version>
+          <configuration>
+            <archive>
+              <manifest>
+                <addClasspath>true</addClasspath>
+                <mainClass>com.redhat.reproducer.Client</mainClass>
+                <classpathPrefix>lib/</classpathPrefix>
+              </manifest>
+            </archive>
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>

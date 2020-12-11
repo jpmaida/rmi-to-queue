@@ -1,9 +1,11 @@
 package com.redhat.reproducer;
 
+import javax.jms.ConnectionFactory;
+import javax.jms.Destination;
+import javax.jms.JMSContext;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
-import javax.print.attribute.standard.Destination;
 import java.util.Properties;
 
 public class MessageToQueue {
@@ -11,29 +13,33 @@ public class MessageToQueue {
     private String USERNAME = "user-remote-mq";
     private String PASSWORD = "user123";
 
+    public static void main(String[] args) {
+        MessageToQueue m = new MessageToQueue();
+        m.sendMessage();
+    }
+
     public void sendMessage() {
         InitialContext context = null;
 
-//        try {
-//            context = new InitialContext(environmentProperties());
-//            ConnectionFactory connectionFactory = null;
-//            connectionFactory = (ConnectionFactory) context.lookup("java:jms/RemoteConnectionFactory");
-//
-//            JMSContext jmsContext = connectionFactory.createContext(username, password);
-//
-//            Destination fooQueue = (Destination) context.lookup("java:jms/queue/foo");
-//
-//            jmsContext.createProducer().send(fooQueue, "Hi!!!");
-//        } catch (NamingException e) {
-//            e.printStackTrace();
-//        } finally {
-//            try {
-//                if (context != null)
-//                    context.close();
-//            } catch (NamingException e) {
-//                e.printStackTrace();
-//            }
-//        }
+        try {
+            context = new InitialContext(environmentProperties());
+            ConnectionFactory connectionFactory = (ConnectionFactory) context.lookup("java:/jms/RemoteConnectionFactory");
+
+            JMSContext jmsContext = connectionFactory.createContext(USERNAME, PASSWORD);
+
+            Destination fooQueue = (Destination) context.lookup("java:/jms/queue/foo");
+
+            jmsContext.createProducer().send(fooQueue, "Hi!!!");
+        } catch (NamingException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (context != null)
+                    context.close();
+            } catch (NamingException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     private Properties environmentProperties(){
