@@ -1,0 +1,8 @@
+### macOS ###
+# General
+.DS_Store
+
+# Project #
+.idea
+*.iml
+target
