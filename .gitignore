@@ -2,7 +2,17 @@
 # General
 .DS_Store
 
-# Project #
+# Project
 .idea
 *.iml
 target
+standalone/data
+standalone/data/*
+standalone/tmp
+standalone/tmp/*
+standalone/log
+standalone/log/*
+standalone/deployments
+standalone/deployments/*
+standalone/lib
+standalone/lib/*
