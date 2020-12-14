@@ -3,6 +3,7 @@ package com.redhat.reproducer;
 import javax.jms.ConnectionFactory;
 import javax.jms.Destination;
 import javax.jms.JMSContext;
+import javax.naming.CommunicationException;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -15,7 +16,7 @@ public class MessageToQueue {
     private String USERNAME = "user-remote-mq";
     private String PASSWORD = "user123";
 
-    public void sendMessage() {
+    public void sendMessage() throws CommunicationException {
         InitialContext context = null;
         try {
             context = this.createContext();
@@ -24,7 +25,8 @@ public class MessageToQueue {
             Destination fooQueue = (Destination) context.lookup("java:/jms/queue/foo");
             jmsContext.createProducer().send(fooQueue, "Hi!!!");
         } catch (NamingException e) {
-            e.printStackTrace();
+            LOGGER.severe(e.getMessage());
+            throw new CommunicationException(e.getMessage());
         } finally {
             try {
                 if (context != null)

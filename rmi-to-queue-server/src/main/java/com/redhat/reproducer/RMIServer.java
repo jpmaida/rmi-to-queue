@@ -1,5 +1,6 @@
 package com.redhat.reproducer;
 
+import javax.naming.CommunicationException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
@@ -21,9 +22,13 @@ public class RMIServer implements HelloMessage {
             time = "third";
         else
             time = counter + "th";
-        counter++;
-        new MessageToQueue().sendMessage();
-        return "Message sent for the " + time + " time!";
+        try {
+            new MessageToQueue().sendMessage();
+            counter++;
+            return "Message sent for the " + time + " time!";
+        } catch (CommunicationException e) {
+            return "Maybe JBoss EAP 7 is down. Check it first and try later !!!";
+        }
     }
 
     public static void main(String args[]) {
