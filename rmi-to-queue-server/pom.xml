@@ -58,7 +58,7 @@
                             <manifest>
                                 <addClasspath>true</addClasspath>
                                 <mainClass>com.redhat.reproducer.RMIServer</mainClass>
-                                <classpathPrefix>/tmp/lib/</classpathPrefix>
+                                <classpathPrefix>/opt/rmi-to-queue/lib/</classpathPrefix>
                             </manifest>
                         </archive>
                     </configuration>

@@ -39,7 +39,7 @@
               <manifest>
                 <addClasspath>true</addClasspath>
                 <mainClass>com.redhat.reproducer.ClientRMI</mainClass>
-                <classpathPrefix>lib/</classpathPrefix>
+                <classpathPrefix>/opt/rmi-to-queue/lib/</classpathPrefix>
               </manifest>
             </archive>
           </configuration>
