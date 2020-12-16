@@ -6,7 +6,7 @@ Repository dedicated to RMI to external Active MQ Queue Proof of Concept. This P
 ```
 rmi-to-queue
 ├── README.md 											~> Read me file
-├── lib 												~> Classpath lib's
+├── lib 												~> Classpath libs
 ├── rmi-to-queue-client 								~> Client project
 │   ├── pom.xml
 │   ├── src
@@ -30,6 +30,12 @@ rmi-to-queue
 │   │   │                   └── RMIServer.java
 └── standalone
     └── configuration 									~> Configuration files for the JBoss EAP envinroment
+```
+
+## Envinroment configuration
+```
+mkdir /opt/rmi-to-queue
+cp -r lib/ /opt/rmi-to-queue/
 ```
 
 ## Build and run the RMI Server
